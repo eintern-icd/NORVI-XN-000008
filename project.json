@@ -1,12 +1,35 @@
 {
-  "userId": "u_4886111579d6765a",
-  "projectId": "norvi-xn-000008-0b9b6592",
+  "schemaVersion": 2,
   "name": "NORVI-XN-000008",
-  "board": {
-    "fqbn": "esp32:esp32:esp32s3"
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32s3",
+    "options": {
+      "CDCOnBoot": "cdc",
+      "CPUFreq": "240",
+      "DebugLevel": "none",
+      "DFUOnBoot": "default",
+      "EraseFlash": "none",
+      "EventsCore": "1",
+      "FlashMode": "qio",
+      "FlashSize": "16M",
+      "JTAGAdapter": "default",
+      "LoopCore": "1",
+      "MSCOnBoot": "default",
+      "PartitionScheme": "min_spiffs",
+      "PSRAM": "enabled",
+      "UploadMode": "default",
+      "UploadSpeed": "115200",
+      "USBMode": "hwcdc",
+      "ZigbeeMode": "default"
+    }
   },
-  "selections": null,
-  "serial": null,
+  "serial": {
+    "baudRate": 115200
+  },
+  "build": {
+    "properties": []
+  },
   "createdAt": "2026-10-20T03:17:29.908Z",
-  "updatedAt": "2026-10-20T03:17:29.908Z"
+  "updatedAt": "2026-10-20T04:58:00.201Z"
 }
